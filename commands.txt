@@ -1,0 +1,41 @@
+commandline: vim filenames - open buffers
+edit: or e: filename - creates or goes to that buffer as the active buffer
+badd: or bad: - creates a new buffer but does not set it as the active buffer
+
+split: or sp: filename - splits buffers horizontally with new file
+vsplit: or vs: filename - splits buffers vertically with new file
+
+ctr-w ctr-w - switch between split buffers
+ctr-w ctr-r - switch position of buffers
+number ctr-w < or >  - decreases or increases width of buffer
+number ctr-w + or -  - decreases or increases the height of buffer
+
+:ls or :files or :buffers - will list buffers you have open
+    info: 
+        % current window
+        # last file edited in window
+        a active buffer
+        h hidden buffer
+        u unlisted buffer prestent in working directory but not opened in vim (use :ls! to see)
+        - modify is off
+        = read only
+        + modified buffer not written
+        x read errors
+:set hidden - allows to switch buffers without writing to them
+(put in vimrc so you dont get annoying message every time)
+
+:ball - open all buffers horizontally
+:verical ball - open all buffers vertically
+
+:bdelete or :bd filename/index - deletes a buffer
+:num1,num2bd - deletes incusive [num1,num2] where the numbers are indexs
+
+:b[number] or :b filename or :buffer number/filename - switch to that buffer
+:bn - switch to next buffer
+:bp - switch to previous buffer
+:bfirst or :bf - switch to first buffer
+:blast or :bl - switch to last buffer
+
+:qw or :q! - will quit vim with writing and without writting
+
+
