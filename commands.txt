@@ -1,4 +1,5 @@
 commandline: vim filenames - open buffers
+
 edit: or e: filename - creates or goes to that buffer as the active buffer
 badd: or bad: - creates a new buffer but does not set it as the active buffer
 
@@ -25,10 +26,10 @@ number ctr-w + or -  - decreases or increases the height of buffer
 (put in vimrc so you dont get annoying message every time)
 
 :ball - open all buffers horizontally
-:verical ball - open all buffers vertically
+:vertical ball - open all buffers vertically
 
 :bdelete or :bd filename/index - deletes a buffer
-:num1,num2bd - deletes incusive [num1,num2] where the numbers are indexs
+:num1,num2bd - deletes incusive [num1,num2] where the numbers are indexes
 
 :b[number] or :b filename or :buffer number/filename - switch to that buffer
 :bn - switch to next buffer
